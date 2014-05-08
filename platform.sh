@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "Linux:"
+echo "** Linux:"
 echo `uname -a`
 
-echo "\nBrowsers:"
+echo "\n** Browsers:"
 echo `firefox --version`
 
-echo "\nDatabases:"
+echo "\n** Databases:"
 echo `mysql --version`
 echo `psql --version`
