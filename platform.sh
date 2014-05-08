@@ -31,3 +31,6 @@ echo `java -version`
 
 echo "\n** Clojure version:"
 echo `lein --version`
+
+echo "\n** PhantomJs version:"
+echo `phantomjs --version`
