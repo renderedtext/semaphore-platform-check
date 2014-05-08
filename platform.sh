@@ -19,3 +19,8 @@ echo `rbenv global 1.9.2 && ruby --version`
 echo `rbenv global 1.8.7 && ruby --version`
 echo `rbenv global jruby-1.7 && ruby --version`
 
+echo "\n** Node versions:"
+echo `node --version`
+echo `nvm use 0.11 && node --version`
+echo `nvm use 0.10 && node --version`
+echo `nvm use 0.8 && node --version`
