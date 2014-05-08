@@ -21,7 +21,7 @@ echo `rbenv global 1.8.7 && ruby --version`
 echo `rbenv global jruby-1.7 && ruby --version`
 
 echo "\n** Node versions:"
-echo `node --version`
-echo `nvm use 0.11 && node --version`
-echo `nvm use 0.10 && node --version`
-echo `nvm use 0.8 && node --version`
+. ~/.nvm/nvm.sh
+echo `nvm use 0.11 > /dev/null && node --version`
+echo `nvm use 0.10 > /dev/null && node --version`
+echo `nvm use 0.8 > /dev/null  && node --version`
