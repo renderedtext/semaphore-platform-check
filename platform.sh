@@ -25,3 +25,9 @@ echo "\n** Node versions:"
 echo `nvm use 0.11 > /dev/null && node --version`
 echo `nvm use 0.10 > /dev/null && node --version`
 echo `nvm use 0.8 > /dev/null  && node --version`
+
+echo "\n** Java version:"
+echo `java -version`
+
+echo "\n** Clojure version:"
+echo `lein --version`
