@@ -12,8 +12,7 @@ echo `psql --version`
 echo `redis-cli INFO | grep redis_version`
 
 echo "\n** Ruby versions:"
-echo `rbenv global 2.1.1 && ruby --version`
-echo `rbenv global 2.1.0 && ruby --version`
+echo `rbenv global 2.1 && ruby --version`
 echo `rbenv global 2.0.0 && ruby --version`
 echo `rbenv global 1.9.3 && ruby --version`
 echo `rbenv global 1.9.2 && ruby --version`
