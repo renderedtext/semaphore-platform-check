@@ -1,5 +1,4 @@
-Semaphore platform check
-========================
+## Semaphore platform check
 
 This is a simple script that outputs the versions
 of most important packages on the Semaphore Platform.
